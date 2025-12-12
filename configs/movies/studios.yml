@@ -28,16 +28,16 @@ collections:
   Disney Animation Studios:
     template: {name: studio, trakt: jashack/lists/walt-disney-animation-studios, radarr: true}
     summary: Walt Disney Animation Studios, sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Walt Disney Studios lot in Burbank, California.
-  Disney Animation Studios Shorts:
+  Disney Short Films:
     template: {name: studio, trakt: dagov765/lists/walt-disney-animation-studios-shorts, radarr: true}
     summary:
-  Disney Live-Action Remakes:
+  Disney Live-Action:
     template: {name: studio, trakt: proturbo18/lists/disney-live-action-remakes, radarr: true}
     summary: Walt Disney Pictures is an American film production studio of The Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures.
-  Pixar:
+  Pixar Animation Studios:
     template: {name: studio, trakt: chloe131997/lists/pixar, radarr: true}
     summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios owned by The Walt Disney Company. Pixar began in 1979 and was purchased by Disney in 2006 at a valuation of $7.4 billion. Pixar is best known for its feature films and animated shorts. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
-  Pixar Shorts:
+  Pixar Short Films:
     template: {name: studio, trakt: avaianade/lists/pixar-shorts, radarr: true}
     summary:
   Studio Ghibli:

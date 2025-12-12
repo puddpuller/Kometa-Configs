@@ -4,6 +4,7 @@
 
 templates:
   awards:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/awards/<<collection_name>>.png
     smart_label:
       sort_by: release.desc
       all:

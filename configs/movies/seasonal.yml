@@ -36,7 +36,7 @@ templates:
     delete_not_scheduled: true
 
 collections:
-  Christmas:
+  Santa’s Nice List:
     template: 
       name: seasonal
       poster_id: christmas

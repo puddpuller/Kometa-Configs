@@ -4,7 +4,7 @@
 
 templates:
   seasonal:
-    file_poster: /assets/seasonal/<<collection_name>>/poster.jpg
+    file_poster: /assets/seasonal/<<collection_name>>.png
     optional:
       - trakt
       - imdb 

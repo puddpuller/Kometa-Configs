@@ -39,6 +39,7 @@ collections:
   Christmas:
     template: 
       name: seasonal
+      poster_id: christmas
       season: Christmas
       schedule: 11/01-12/31
       trakt: 

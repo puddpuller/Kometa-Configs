@@ -4,6 +4,7 @@
 
 templates:
   smart-studio:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/<<collection_name>>.png
     smart_label:
       sort_by: release.asc
       all:
@@ -11,6 +12,7 @@ templates:
     trakt_list: https://trakt.tv/users/<<trakt>>
     sort_title: +<<collection_name>>
   studio:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/<<collection_name>>.png
     optional:
       - movie
       - radarr

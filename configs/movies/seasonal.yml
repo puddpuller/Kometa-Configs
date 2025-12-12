@@ -4,6 +4,7 @@
 
 templates:
   seasonal:
+    file_poster: /config/assets/seasonal/<<collection_name>>/poster.jpg
     optional:
       - trakt
       - imdb 
@@ -43,6 +44,11 @@ collections:
       trakt: 
         - https://trakt.tv/users/k0meta/lists/christmas-extravaganza-non-tv-movie
         - https://trakt.tv/users/ubjeckle/lists/christmas-movies
+        - https://trakt.tv/users/littlestella3/lists/christmas
+        - https://trakt.tv/users/triadcool/lists/christmas
+        - https://trakt.tv/users/pterisaur/lists/christmas
+        - https://trakt.tv/users/oldmankestis/lists/christmas
+        - https://trakt.tv/users/biggsandroid/lists/christmas
         
   Christmas Collection:
     template:
@@ -54,6 +60,8 @@ collections:
       - https://trakt.tv/users/triadcool/lists/christmas
       - https://trakt.tv/users/pterisaur/lists/christmas
       - https://trakt.tv/users/oldmankestis/lists/christmas
+      - https://trakt.tv/users/k0meta/lists/christmas-extravaganza-non-tv-movie
+      - https://trakt.tv/users/ubjeckle/lists/christmas-movies
     filters:
       title.not: 
         - Lethal Weapon

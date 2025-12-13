@@ -29,6 +29,7 @@ collections:
     summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution.
   Disney Animation Studios:
     poster_id: DisneyAnimationStudios
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DisneyAnimationStudios.png
     template: {name: studio, trakt: jashack/lists/walt-disney-animation-studios, radarr: true}
     summary: Walt Disney Animation Studios, sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Walt Disney Studios lot in Burbank, California.
   Disney Short Films:

@@ -4,8 +4,9 @@
 
 templates:
   seasonal:
-    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/seasonal/<<collection_name>>.png
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/seasonal/<<poster_id>>.png
     optional:
+      - poster_id
       - trakt
       - imdb 
     smart_label:
@@ -26,8 +27,10 @@ templates:
     sort_title: ++++++<<collection_name>>
     
   Holiday:
-    file_poster: /config/assets/plex/Collections/<<collection_name>>/poster.jpg
+    file_poster: /config/assets/plex/Collections/<<poster_id>>/poster.jpg
     sort_title: "!00_<<collection_name>>" #PLACES COLLECTION AT THE TOP OF THE LIST
+    optional:
+      - poster_id
     collection_order: alpha
     sync_mode: sync
     visible_library: true

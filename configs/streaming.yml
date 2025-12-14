@@ -9,6 +9,7 @@ templates:
       all:
         label: <<smart_label>>
     mdblist_list: https://mdblist.com/lists/k0meta/<<key>>-originals
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/streaming/<<key>>.png
     summary: Collection of <<collection_name>> Original <<library_type>>s currently streaming.
     sort_title: +++<<collection_name>>
 
@@ -24,4 +25,5 @@ dynamic_collections:
       netflix: Netflix
       paramount: Paramount+
       amazon: Prime Video
+      peacock: Peacock
     title_format: <<key_name>>

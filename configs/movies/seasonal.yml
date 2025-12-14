@@ -4,7 +4,7 @@
 
 templates:
   seasonal:
-    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/seasonal/<<poster_id>>.png
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/seasonal/<<season>>.png
     optional:
       - poster_id
       - trakt
@@ -42,7 +42,6 @@ collections:
   Santa’s Nice List:
     template: 
       name: seasonal
-      poster_id: christmas
       season: Christmas
       schedule: 11/01-12/31
       trakt: 

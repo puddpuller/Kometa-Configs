@@ -24,7 +24,6 @@ templates:
     sort_title: ++++++<<collection_name>>
   imdb:
     imdb_chart: <<chart>>_<<library_type>>s
-    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/charts/imdb.png
     smart_label:
       sort_by: audience_rating.desc
       all:
@@ -45,11 +44,15 @@ collections:
     template: {name: unwatched, library_type: <<library_type>>}
   IMDb Top 250:
     template: {name: imdb, chart: top}
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/charts/imdb.png
   TMDb Trending:
     template: {name: charts, website: TMDb}
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/charts/tmdb.png
     tmdb_trending_weekly: 100
+    style: color
   Trakt Trending:
     template: {name: charts, website: Trakt}
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/charts/trakt.png
     trakt_chart:
       chart: trending
       limit: 100

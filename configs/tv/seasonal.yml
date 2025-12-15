@@ -4,6 +4,7 @@
 
 templates:
   seasonal:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/seasonal/<<season>>.png
     optional:
       - trakt
       - imdb

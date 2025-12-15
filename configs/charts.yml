@@ -49,7 +49,6 @@ collections:
     template: {name: charts, website: TMDb}
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/charts/tmdb.png
     tmdb_trending_weekly: 100
-    style: color
   Trakt Trending:
     template: {name: charts, website: Trakt}
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/charts/trakt.png

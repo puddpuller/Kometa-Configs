@@ -1,4 +1,4 @@
-######################################################
+y######################################################
 #                Seasonal Collections                #
 ######################################################
 
@@ -26,7 +26,7 @@ templates:
     sort_title: ++++++<<collection_name>
   
 collections: 
-  Christmas:
+  Christmas Merrython:
     template: 
       name: seasonal
       schedule: 11/01-12/31

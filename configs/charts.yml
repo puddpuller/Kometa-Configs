@@ -40,8 +40,8 @@ templates:
     schedule: weekly(monday)
 
 collections:
-  Unwatched:
-    template: {name: unwatched, library_type: <<library_type>>}
+#  Unwatched:
+#    template: {name: unwatched, library_type: <<library_type>>}
   IMDb Top 250:
     template: {name: imdb, chart: top}
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/charts/imdb.png

@@ -18,7 +18,6 @@ templates:
     collection_order: <<order>>
     collection_mode: <<mode>>
     minimum_items: <<minimum>>
-    schedule: weekly(monday)
 
 dynamic_collections:
   TMDb Collections:
@@ -47,8 +46,6 @@ dynamic_collections:
       748:         # X-Men
         - 453993   # The Wolverine
         - 448150   # Deadpool
-    remove_prefix: The
-    remove_suffix: Collection
     title_override:
       750822: The Addams Family
       125574: The Amazing Spider-Man

@@ -30,6 +30,8 @@ templates:
         label: <<smart_label>>
     sort_title: +++++<<collection_name>>
     summary: The top 250 best <<library_type>>s of all time based on IMDb user ratings.
+    radarr:
+      add_missing: true
   charts:
     smart_label:
       sort_by: release.desc

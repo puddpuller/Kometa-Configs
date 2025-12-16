@@ -4,9 +4,6 @@
 
 templates:
   awards:
-    optional:
-      - poster_id
-    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/awards/<<poster_id>>.png
     smart_label:
       sort_by: release.desc
       all:
@@ -15,7 +12,7 @@ templates:
     
 collections:
   Oscars:
-    poster_id: Oscars
     template: {name: awards}
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/awards/Oscars.png
     trakt_list: https://trakt.tv/users/pandali/lists/oscar-nomination-1975-2023
     summary: Every movie to receive an Oscar nomination from 1931-Present.

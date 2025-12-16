@@ -18,6 +18,7 @@ templates:
     collection_order: <<order>>
     collection_mode: <<mode>>
     minimum_items: <<minimum>>
+    schedule: weekly(monday)
 
 dynamic_collections:
   TMDb Collections:

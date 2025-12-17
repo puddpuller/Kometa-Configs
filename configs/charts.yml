@@ -30,7 +30,6 @@ templates:
         label: <<smart_label>>
     sort_title: +++++<<collection_name>>
     summary: The top 250 best <<library_type>>s of all time based on IMDb user ratings.
-    radarr_add_missing: true
   charts:
     smart_label:
       sort_by: release.desc
@@ -46,13 +45,16 @@ collections:
   IMDb Top 250:
     template: {name: imdb, chart: top}
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/charts/imdb.png
+    radarr_add_missing: true
   TMDb Trending:
     template: {name: charts, website: TMDb}
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/charts/tmdb.png
     tmdb_trending_weekly: 100
+    radarr_add_missing: true
   Trakt Trending:
     template: {name: charts, website: Trakt}
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/charts/trakt.png
+    radarr_add_missing: true
     trakt_chart:
       chart: trending
       limit: 100

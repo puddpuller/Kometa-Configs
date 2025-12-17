@@ -10,6 +10,7 @@ templates:
         label: <<smart_label>>
     trakt_list: https://trakt.tv/users/<<trakt>>
     sort_title: +<<collection_name>>
+    radarr_add_missing: true
   studio:
     optional:
       - movie
@@ -19,6 +20,7 @@ templates:
     trakt_list: https://trakt.tv/users/<<trakt>>
     radarr_add_missing: <<radarr>>
     sort_title: +<<collection_name>>
+    radarr_add_missing: true
 
 collections:
   A24:

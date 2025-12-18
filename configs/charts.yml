@@ -3,25 +3,7 @@
 ######################################################
 
 templates:
-  unwatched:
-    conditionals:
-      episodes:
-        default: ""
-        conditions:
-          - library_type: show
-            value: "_episodes"
-      description:
-        default: ""
-        conditions:
-          - library_type: show
-            value: " or have unplayed episodes"
-    collection_filtering: user
-    smart_filter:
-      all:
-        unplayed<<episodes>>: true
-      sort_by: release.desc
-    summary: "Collection of <<library_type>>s that haven't been watched<<description>>."
-    sort_title: ++++++<<collection_name>>
+    
   imdb:
     imdb_chart: <<chart>>_<<library_type>>s
     smart_label:
@@ -31,9 +13,10 @@ templates:
     sort_title: +++++<<collection_name>>
     summary: The top 250 best <<library_type>>s of all time based on IMDb user ratings.
     radarr_add_missing: true
+    
   charts:
     smart_label:
-      sort_by: release.desc
+#      sort_by: release.desc
       all:
         label: <<smart_label>>
     sort_title: +++++<<collection_name>>
@@ -42,8 +25,6 @@ templates:
     radarr_add_missing: true
 
 collections:
-#  Unwatched:
-#    template: {name: unwatched, library_type: <<library_type>>}
   IMDb Top 250:
     template: {name: imdb, chart: top}
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/charts/imdb.png

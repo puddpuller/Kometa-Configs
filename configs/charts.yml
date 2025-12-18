@@ -7,7 +7,7 @@ templates:
   imdb:
     imdb_chart: <<chart>>_<<library_type>>s
     smart_label:
-      sort_by: audience_rating.desc
+#      sort_by: audience_rating.desc
       all:
         label: <<smart_label>>
     sort_title: +++++<<collection_name>>

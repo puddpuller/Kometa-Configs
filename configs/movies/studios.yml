@@ -20,12 +20,11 @@ templates:
     trakt_list: https://trakt.tv/users/<<trakt>>
     radarr_add_missing: <<radarr>>
     sort_title: +<<collection_name>>
-    radarr_add_missing: true
 
 collections:
   A24:
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/A24.png
-    template: {name: smart-studio, trakt: vancityguy/lists/a24}
+    template: {name: smart-studio, trakt: vancityguy/lists/a24, radarr: true}
     summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution.
   Disney Animation Studios:
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DisneyAnimationStudios.png

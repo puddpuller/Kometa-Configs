@@ -10,17 +10,17 @@ templates:
         label: <<smart_label>>
     sort_title: ++++<<collection_name>>
 
-  cannes:
-    use_palm: true
-    name_palm: "Cannes Palme d'Or Winners"
-    use_year_collections: false
-    smart_label:
-      sort_by: 
-        - release.desc
-      all:
-        label: <<smart_label>>
-    sort_title: ++++<<collection_name>>
-    summary: Collection of Cannes Golden Palm Award Winners.
+#  cannes:
+ #   use_palm: true
+  #  name_palm: "Cannes Palme d'Or Winners"
+   # use_year_collections: false
+    #smart_label:
+     # sort_by: 
+      #  - release.desc
+#      all:
+ #       label: <<smart_label>>
+  #  sort_title: ++++<<collection_name>>
+   # summary: Collection of Cannes Golden Palm Award Winners.
 
     
 collections:
@@ -30,6 +30,6 @@ collections:
     trakt_list: https://trakt.tv/users/pandali/lists/oscar-nomination-1975-2023
     summary: Every movie to receive an Oscar nomination from 1931-Present.
 
-  "Cannes Palme d'Or Winners":
-    template: {name: cannes}
+#  "Cannes Palme d'Or Winners":
+ #   template: {name: cannes}
     #radarr_add_missing: true

@@ -26,5 +26,6 @@ collections:
     summary: Every movie to receive an Oscar nomination from 1931-Present.
 
   "Cannes Palme d'Or Winners":
-    template: cannes_palm_only
+    template:
+      name: cannes_palm_only
     #radarr_add_missing: true

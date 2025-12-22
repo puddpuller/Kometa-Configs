@@ -16,6 +16,7 @@ templates:
       use_palm: true
       name_palm: "Cannes Palme d'Or Winners"
       collection_order: release.desc
+    sort_title: ++++<<collection_name>>
     
 collections:
   Oscars:

@@ -9,6 +9,13 @@ templates:
       all:
         label: <<smart_label>>
     sort_title: ++++<<collection_name>>
+
+  cannes_palm_only:
+    default: cannes
+    template_variables:
+      use_palm: true
+      name_palm: "Cannes Palme d'Or Winners"
+      collection_order: release.desc
     
 collections:
   Oscars:
@@ -18,9 +25,5 @@ collections:
     summary: Every movie to receive an Oscar nomination from 1931-Present.
 
   "Cannes Palme d'Or Winners":
-    default: cannes
-    template_variables:
-      use_palm: true
-      name_palm: "Cannes Palme d'Or Winners"
-      collection_order: release.desc
+    template: cannes_palm_only
     #radarr_add_missing: true

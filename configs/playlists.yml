@@ -19,9 +19,9 @@ playlists:
   The Simpsons Top 100 Episodes:
     template: {name: top, imdb: tt0096697}
     summary: Top 100 episodes of The Simpsons based on IMDb user rating.
-    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/playlists/Simpsons100.jpg
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/playlists/Simpsons100.png
 
   South Park Top 100 Episodes:
     template: {name: top, imdb: tt0121955}
     summary: Top 100 episodes of South Park based on IMDb user rating.
-    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/playlists/SouthPark100.jpg
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/playlists/SouthPark100.png

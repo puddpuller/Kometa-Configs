@@ -30,8 +30,8 @@ collections:
   Disney Animation Studios:
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DisneyAnimationStudios.png
     template:
-      name: studio
-      company: 6125
+      name: studio-trakt
+      trakt: https://trakt.tv/users/jashack/lists/walt-disney-animation-studios
       radarr: true
     summary: Walt Disney Animation Studios is one of the oldest animation studios in the world, producing animated features and shorts for The Walt Disney Company.
 

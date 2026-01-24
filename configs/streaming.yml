@@ -1,0 +1,33 @@
+######################################################
+#               Streaming Collections                #
+######################################################
+
+templates:
+  streaming:
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: streaming_<<key>>
+    mdblist_list: https://mdblist.com/lists/k0meta/<<key>>-originals
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/streaming/<<key>>.png
+    summary: >
+      A collection of <<collection_name>> original titles currently streaming.
+    sort_title: +++<<collection_name>>
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+dynamic_collections:
+  Streaming:
+    template: streaming
+    type: custom
+    data:
+      appletv: Apple TV+
+      amazon: Prime Video
+      disney: Disney+
+      hulu: Hulu
+      max: Max
+      netflix: Netflix
+      paramount: Paramount+
+      peacock: Peacock
+    title_format: <<key_name>>

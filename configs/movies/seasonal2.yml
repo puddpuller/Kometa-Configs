@@ -1,0 +1,59 @@
+######################################################
+#                Seasonal Collections                #
+######################################################
+
+templates:
+  seasonal:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/seasonal/<<season>>.png
+    optional:
+      - poster_id
+      - trakt
+      - imdb 
+    smart_label:
+      sort_by: title.asc
+      all:
+        label: <<smart_label>>
+    trakt_list: <<trakt>>
+    imdb_list: https://www.imdb.com/<<imdb>>
+    schedule: range(<<schedule>>)
+    summary: >-
+            A collection of <<season>> themed movies, as well as movies that are associated with this time of year. 
+
+            PLEASE NOTE, this is a timed collection and will be automatically removed at the end of the holiday.
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+    delete_not_scheduled: true
+    sort_title: ++++++<<collection_name>>
+    
+collections:
+  Santa’s Nice List:
+    template: 
+      name: seasonal
+      season: Christmas
+      schedule: 11/01-12/31
+      trakt: 
+        - https://trakt.tv/users/k0meta/lists/christmas-extravaganza-non-tv-movie
+        - https://trakt.tv/users/ubjeckle/lists/christmas-movies
+        - https://trakt.tv/users/littlestella3/lists/christmas
+        - https://trakt.tv/users/triadcool/lists/christmas
+        - https://trakt.tv/users/pterisaur/lists/christmas
+        - https://trakt.tv/users/oldmankestis/lists/christmas
+        - https://trakt.tv/users/biggsandroid/lists/christmas
+    summary: "This collection brings together festive films and shorts that celebrate the spirit, traditions, and history of the holiday season. From timeless classics to modern favorites, these stories highlight themes of family, generosity, and togetherness, capturing the warmth, wonder, and nostalgia that define Christmas and holiday celebrations."  
+
+  Spooktober:
+    template:
+      name: seasonal
+      season: Halloween
+      schedule: range(09/15-10/31)
+      trakt:
+        - https://trakt.tv/users/oldmankestis/lists/horror
+        - https://trakt.tv/users/movistapp/lists/horror
+        - https://trakt.tv/users/g0g0/lists/horror
+        - https://trakt.tv/users/pterisaur/lists/halloween
+        - https://trakt.tv/users/k0meta/lists/spooktober-copy
+    plex_search:
+      any:
+        genre: Horror
+    summary: "This collection features films and shorts that explore the playful and eerie side of storytelling, rooted in classic horror traditions and seasonal folklore. Ranging from lighthearted spooky fun to atmospheric chills, these titles celebrate Halloween themes, iconic monsters, and the evolution of spooky entertainment through the years."

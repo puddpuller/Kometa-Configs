@@ -1,0 +1,57 @@
+######################################################
+#                People Collections                  #
+######################################################
+
+templates:
+  director:
+    smart_filter:
+      director: tmdb
+      sort_by: release.asc
+      validate: true
+    tmdb_person: <<person>>
+    sort_title: ++<<collection_name>>
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  actor:
+    smart_filter:
+      actor: tmdb
+      sort_by: release.asc
+      validate: true
+    tmdb_person: <<person>>
+    sort_title: ++<<collection_name>>
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+collections:
+  Christopher Nolan:
+    template: {name: director, person: 525}
+    summary: >
+      Christopher Nolan is a British-American director known for his cerebral, visually stunning films, including The Dark Knight trilogy, Inception, and Interstellar. His work often explores time, memory, and identity.
+
+  The Coen Brothers:
+    template: {name: director, person: "1223, 1224"}
+    summary: >
+      Joel and Ethan Coen, collectively known as the Coen Brothers, are American filmmakers whose movies combine sharp dialogue, dark humor, and genre-bending storytelling, from Fargo to No Country for Old Men.
+
+  Leonardo DiCaprio:
+    template: {name: actor, person: 6193}
+    summary: >
+      Leonardo DiCaprio is an American actor and producer acclaimed for his versatile performances in films like Titanic, Inception, The Revenant, and Once Upon a Time in Hollywood.
+
+  Martin Scorsese:
+    template: {name: director, person: 1032}
+    summary: >
+      Martin Scorsese is a legendary American filmmaker known for his masterful storytelling in films such as Goodfellas, Taxi Driver, and The Irishman, often exploring crime, morality, and human nature.
+
+  Quentin Tarantino:
+    template: {name: director, person: 138}
+    summary: >
+      Quentin Tarantino is an American director and screenwriter famous for his stylized violence, sharp dialogue, and nonlinear storytelling in films such as Pulp Fiction, Kill Bill, and Once Upon a Time in Hollywood.
+
+  Wes Anderson:
+    template: {name: director, person: 5655}
+    summary: >
+      Wes Anderson is an American filmmaker celebrated for his whimsical visual style, quirky characters, and meticulous attention to detail in films like The Grand Budapest Hotel, Moonrise Kingdom, and The Royal Tenenbaums.

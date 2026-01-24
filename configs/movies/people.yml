@@ -11,8 +11,8 @@ templates:
     tmdb_person: <<person>>
     sort_title: ++<<collection_name>>
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
   actor:
     smart_filter:
@@ -22,8 +22,8 @@ templates:
     tmdb_person: <<person>>
     sort_title: ++<<collection_name>>
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
 collections:
   Christopher Nolan:

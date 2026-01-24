@@ -33,12 +33,12 @@ collections:
   Disney Short Films:
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DisneyShortFilms.png
     template: 
-      - name: studio
-      - trakt: 
-          - dagov765/lists/walt-disney-animation-studios-shorts
-          - ladridojurasico/lists/silly-symphonies
-      - radarr: true
-    summary:
+      name: studio
+      trakt: 
+        - dagov765/lists/walt-disney-animation-studios-shorts
+        - ladridojurasico/lists/silly-symphonies
+      radarr: true
+    summary: Disney Animated Shorts are brief yet imaginative films that blend classic storytelling with important moments in animation history. Often whimsical or heartfelt, they showcase early breakthroughs in hand-drawn animation, character expression, and music synchronization, serving as both entertainment and a foundation for techniques that shaped animated cinema.
   Disney Live-Action:
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DisneyLive-Action.png
     template: {name: studio, trakt: proturbo18/lists/disney-live-action-remakes, radarr: true}
@@ -50,7 +50,7 @@ collections:
   Pixar Short Films:
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/PixarShortFilms.png
     template: {name: studio, trakt: avaianade/lists/pixar-shorts, radarr: true}
-    summary:
+    summary: Pixar Shorts are concise but impactful films that combine emotional storytelling with major advancements in computer animation. Frequently developed as creative and technical experiments, these shorts introduce new rendering, lighting, and animation techniques while delivering powerful, often wordless stories that reflect Pixar’s innovation and storytelling craft.
   Studio Ghibli:
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/StudioGhibli.png
     template: {name: studio, trakt: asterlea/lists/studio-ghibli, movie: 1044343, radarr: true}

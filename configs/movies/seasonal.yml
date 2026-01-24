@@ -1,0 +1,75 @@
+######################################################
+#                Seasonal Collections                #
+######################################################
+
+#########################
+# LABELING COLLECTIONS  #
+#########################
+
+collections:
+
+  Christmas Labels:
+    trakt_list:
+      - https://trakt.tv/users/k0meta/lists/christmas-extravaganza-non-tv-movie
+      - https://trakt.tv/users/ubjeckle/lists/christmas-movies
+      - https://trakt.tv/users/littlestella3/lists/christmas
+      - https://trakt.tv/users/triadcool/lists/christmas
+      - https://trakt.tv/users/pterisaur/lists/christmas
+      - https://trakt.tv/users/oldmankestis/lists/christmas
+      - https://trakt.tv/users/biggsandroid/lists/christmas
+    item_label: season_christmas
+    collection_mode: hide
+
+  Halloween Labels:
+    trakt_list:
+      - https://trakt.tv/users/oldmankestis/lists/horror
+      - https://trakt.tv/users/movistapp/lists/horror
+      - https://trakt.tv/users/g0g0/lists/horror
+      - https://trakt.tv/users/pterisaur/lists/halloween
+      - https://trakt.tv/users/k0meta/lists/spooktober-copy
+    plex_search:
+      any:
+        genre: Horror
+    item_label: season_halloween
+    collection_mode: hide
+
+
+#########################
+# SEASONAL COLLECTIONS #
+#########################
+
+templates:
+  seasonal:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/seasonal/<<season>>.png
+    schedule: <<schedule>>
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+    sort_title: ++++++<<collection_name>>
+
+
+collections:
+
+  Santa’s Nice List:
+    template:
+      name: seasonal
+      season: Christmas
+      schedule: range(11/01-12/31)
+    smart_filter:
+      all:
+        label: season_christmas
+    summary: >
+      This collection brings together festive films and shorts that celebrate the spirit,
+      traditions, and history of the holiday season — from timeless classics to modern favorites.
+
+  Spooktober:
+    template:
+      name: seasonal
+      season: Halloween
+      schedule: range(09/15-10/31)
+    smart_filter:
+      all:
+        label: season_halloween
+    summary: >
+      Films and shorts celebrating Halloween, spooky folklore, and horror traditions —
+      ranging from lighthearted scares to atmospheric chills.

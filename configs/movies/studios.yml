@@ -1,0 +1,78 @@
+######################################################
+#                Studio Collections                  #
+######################################################
+
+templates:
+  studio:
+    optional:
+      - radarr
+    tmdb_company: <<company>>
+    radarr_add_missing: <<radarr>>
+    sort_title: +<<collection_name>>
+
+  studio-trakt:
+    optional:
+      - radarr
+    trakt_list: <<trakt>>
+    radarr_add_missing: <<radarr>>
+    sort_title: +<<collection_name>>
+
+collections:
+
+  A24:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/A24.png
+    template:
+      name: studio
+      company: 41077
+      radarr: true
+    summary: A24 is an American independent entertainment company known for distinctive, director-driven films across multiple genres.
+
+  Disney Animation Studios:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DisneyAnimationStudios.png
+    template:
+      name: studio
+      company: 6125
+      radarr: true
+    summary: Walt Disney Animation Studios is one of the oldest animation studios in the world, producing animated features and shorts for The Walt Disney Company.
+
+  Disney Short Films:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DisneyShortFilms.png
+    template:
+      name: studio-trakt
+      trakt:
+        - https://trakt.tv/users/dagov765/lists/walt-disney-animation-studios-shorts
+        - https://trakt.tv/users/ladridojurasico/lists/silly-symphonies
+      radarr: true
+    summary: Disney animated shorts showcase early animation innovation, musical storytelling, and experimental techniques that shaped the studio’s legacy.
+
+  Disney Live-Action:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DisneyLive-Action.png
+    template:
+      name: studio-trakt
+      trakt: https://trakt.tv/users/proturbo18/lists/disney-live-action-remakes
+      radarr: true
+    summary: Walt Disney Pictures produces live-action films ranging from family adventures to large-scale cinematic remakes.
+
+  Pixar Animation Studios:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/PixarAnimationStudios.png
+    template:
+      name: studio
+      company: 3
+      radarr: true
+    summary: Pixar Animation Studios is a pioneer in computer-animated filmmaking, known for emotionally resonant storytelling and technical innovation.
+
+  Pixar Short Films:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/PixarShortFilms.png
+    template:
+      name: studio-trakt
+      trakt: https://trakt.tv/users/avaianade/lists/pixar-shorts
+      radarr: true
+    summary: Pixar shorts serve as creative and technical experiments, often introducing new animation techniques and storytelling styles.
+
+  Studio Ghibli:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/StudioGhibli.png
+    template:
+      name: studio
+      company: 10342
+      radarr: true
+    summary: Studio Ghibli is a renowned Japanese animation studio celebrated for richly detailed worlds, humanistic themes, and timeless storytelling.

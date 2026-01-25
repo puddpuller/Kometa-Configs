@@ -2,13 +2,27 @@
 #                Seasonal Collections                #
 ######################################################
 
-#########################
-# LABELING COLLECTIONS  #
-#########################
+templates:
+  seasonal:
+    label: season_<<season>>
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/seasonal/<<season>>.png
+    schedule: <<schedule>>
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+    sort_title: ++++++<<collection_name>>
+
+######################################################
+#                   COLLECTIONS                      #
+######################################################
 
 collections:
 
-  Christmas Labels:
+  Santa’s Nice List:
+    template:
+      name: seasonal
+      season: christmas
+      schedule: range(11/01-12/31)
     trakt_list:
       - https://trakt.tv/users/k0meta/lists/christmas-extravaganza-non-tv-movie
       - https://trakt.tv/users/ubjeckle/lists/christmas-movies
@@ -17,10 +31,15 @@ collections:
       - https://trakt.tv/users/pterisaur/lists/christmas
       - https://trakt.tv/users/oldmankestis/lists/christmas
       - https://trakt.tv/users/biggsandroid/lists/christmas
-    item_label: season_christmas
-    collection_mode: hide
+    summary: >
+      A festive collection celebrating the spirit, traditions, and magic of the holiday season —
+      from timeless classics to modern favorites.
 
-  Halloween Labels:
+  Spooktober:
+    template:
+      name: seasonal
+      season: halloween
+      schedule: range(09/15-10/31)
     trakt_list:
       - https://trakt.tv/users/oldmankestis/lists/horror
       - https://trakt.tv/users/movistapp/lists/horror
@@ -30,29 +49,44 @@ collections:
     plex_search:
       any:
         genre: Horror
-    item_label: season_halloween
-    collection_mode: hide
+    summary: >
+      Films celebrating Halloween, spooky folklore, and horror traditions —
+      ranging from lighthearted scares to atmospheric chills.
 
-  Valentine Labels:
+  Cupid’s Favorites:
+    template:
+      name: seasonal
+      season: valentine
+      schedule: range(02/01-02/14)
     trakt_list:
       - https://trakt.tv/users/martincz29/lists/valentine
       - https://trakt.tv/users/planetjimbo/lists/valentine-s-day-collection
       - https://trakt.tv/users/triadcool/lists/valentine
       - https://trakt.tv/users/oya-kesh/lists/seasonal-valentine
       - https://trakt.tv/users/dweagle79/lists/valentine-s-day
-    item_label: season_valentine
-    collection_mode: hide
+    summary: >
+      Celebrate love in all its forms with romantic films and heartfelt stories
+      about connection, passion, and meaningful relationships.
 
-  Black-History Labels:
+  Roots & Rise – Black History Stories:
+    template:
+      name: seasonal
+      season: black-history
+      schedule: range(02/01-02/29)
     trakt_list:
       - https://trakt.tv/users/madmapper/lists/black-history
       - https://trakt.tv/users/jenninja/lists/black-history-docs
       - https://trakt.tv/users/bluephi8/lists/black-history
       - https://trakt.tv/users/chadee93/lists/black-shows-movies-black-leads
-    item_label: season_black-history
-    collection_mode: hide
+    summary: >
+      Celebrates the achievements, stories, and cultural contributions of Black individuals
+      throughout history, honoring the past, present, and future.
 
-  Easter Labels:
+  Bunnies & Blessings:
+    template:
+      name: seasonal
+      season: easter
+      schedule: range(03/20-04/30)
     trakt_list:
       - https://trakt.tv/users/axee4/lists/easter
       - https://trakt.tv/users/neyoke/lists/easter
@@ -60,101 +94,19 @@ collections:
       - https://trakt.tv/users/trovolar/lists/easter
       - https://trakt.tv/users/blazin887/lists/easter
       - https://trakt.tv/users/dvitale71/lists/easter
-    item_label: season_easter
-    collection_mode: hide
-
-  Patrick Labels:
-    trakt_list:
-      - https://trakt.tv/users/planetjimbo/lists/st-patrick-s-day-collection
-      - https://trakt.tv/users/madmapper/lists/st-patrick-s-day
-      - https://trakt.tv/users/blazin887/lists/st-patricks-day
-    item_label: season_patrick
-    collection_mode: hide
-
-
-#########################
-# SEASONAL COLLECTIONS #
-#########################
-
-templates:
-  seasonal:
-    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/seasonal/<<season>>.png
-    visible_library: true
-    visible_home: true
-    visible_shared: true
-    sort_title: ++++++<<collection_name>>
-
-
-collections:
-
-  Santa’s Nice List:
-    template:
-      name: seasonal
-      season: Christmas
-    schedule: range(11/01-12/31)
-    smart_filter:
-      all:
-        label: season_christmas
     summary: >
-      This collection brings together festive films and shorts that celebrate the spirit,
-      traditions, and history of the holiday season — from timeless classics to modern favorites.
-
-  Spooktober:
-    template:
-      name: seasonal
-      season: Halloween
-    schedule: range(09/15-10/31)
-    smart_filter:
-      all:
-        label: season_halloween
-    summary: >
-      Films and shorts celebrating Halloween, spooky folklore, and horror traditions —
-      ranging from lighthearted scares to atmospheric chills.
-
-  Cupid’s Favorites:
-    template:
-      name: seasonal
-      season: Valentine
-    schedule: range(02/01-02/14)
-    smart_filter:
-      all:
-        label: season_valentine
-    summary: >
-      Celebrate love in all its forms with this collection of romantic films and shorts,
-      from timeless classics to modern tales of connection and passion.
-
-  Roots & Rise - Black History Stories:
-    template:
-      name: seasonal
-      season: Black-History
-    schedule: range(02/01-02/29)
-    smart_filter:
-      all:
-        label: season_black-history
-    summary: >
-      Celebrates the achievements, stories, and cultural contributions of Black individuals
-      throughout history, honoring the past while highlighting the present.
-
-  Bunnies & Blessings:
-    template:
-      name: seasonal
-      season: Easter
-    schedule: range(03/20-04/30)
-    smart_filter:
-      all:
-        label: season_easter
-    summary: >
-      Celebrate the joy and renewal of Easter with a mix of fun, family-friendly rabbit
+      Celebrate the joy and renewal of Easter with a blend of fun, family-friendly rabbit
       adventures and inspiring stories of faith, hope, and new beginnings.
 
   Shamrock Stories:
     template:
       name: seasonal
-      season: Patrick
-    schedule: range(03/01-03/17)
-    smart_filter:
-      all:
-        label: season_patrick
+      season: patrick
+      schedule: range(03/01-03/17)
+    trakt_list:
+      - https://trakt.tv/users/planetjimbo/lists/st-patrick-s-day-collection
+      - https://trakt.tv/users/madmapper/lists/st-patrick-s-day
+      - https://trakt.tv/users/blazin887/lists/st-patricks-day
     summary: >
-      Celebrate St. Patrick’s Day with films and shorts inspired by folklore, whimsy,
-      mischief, and Irish-themed storytelling — from festive fun to darker tales.
+      Celebrate St. Patrick’s Day with films and stories filled with charm, folklore,
+      mischief, and a touch of festive magic.

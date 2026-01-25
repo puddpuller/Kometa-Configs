@@ -69,16 +69,16 @@ collections:
       radarr: true
     summary: Pixar shorts serve as creative and technical experiments, often introducing new animation techniques and storytelling styles.
 
-  Dreamworks Animation Studios:
-    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DreamworksAnimationStudios.png
+  DreamWorks Animation Studios:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DreamWorksAnimationStudios.png
     template:
       name: studio-trakt
       trakt: https://trakt.tv/users/mythicalsensai/lists/dreamworks-animation
       radarr: true
     summary: DreamWorks Animation’s feature films reflect the studio’s emergence as a major force in modern animation. Known for bold visuals, humor, and character-driven storytelling, these films helped reshape animated cinema from the late 1990s onward, blending technological innovation with imaginative, family-friendly adventures.
     
-  Dreamworks Short Films:
-    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DreamworksShortFilms.png
+  DreamWorks Short Films:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DreamWorksShortFilms.png
     template:
       name: studio-trakt
       trakt: https://trakt.tv/users/megamene/lists/dreamworks-animation-short-films

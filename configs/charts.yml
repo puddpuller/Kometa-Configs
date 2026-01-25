@@ -23,7 +23,7 @@ templates:
         label: <<smart_label>>
     sort_title: +++++<<collection_name>>
     summary: Collection of <<library_type>>s trending this week on <<website>>, updated every Monday.
-#    schedule: weekly(monday)
+    schedule: weekly(monday)
     radarr_add_missing: true
 
 collections:

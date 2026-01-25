@@ -33,7 +33,7 @@ collections:
     item_label: season_halloween
     collection_mode: hide
 
-    Valentine Labels:
+  Valentine Labels:
     trakt_list:
       - https://trakt.tv/users/martincz29/lists/valentine
       - https://trakt.tv/users/planetjimbo/lists/valentine-s-day-collection
@@ -43,7 +43,7 @@ collections:
     item_label: season_valentine
     collection_mode: hide
 
-    Black-History Labels:
+  Black-History Labels:
     trakt_list:
       - https://trakt.tv/users/madmapper/lists/black-history
       - https://trakt.tv/users/jenninja/lists/black-history-docs
@@ -52,7 +52,7 @@ collections:
     item_label: season_black-history
     collection_mode: hide
 
-    Easter Labels:
+  Easter Labels:
     trakt_list:
       - https://trakt.tv/users/axee4/lists/easter
       - https://trakt.tv/users/neyoke/lists/easter
@@ -63,13 +63,14 @@ collections:
     item_label: season_easter
     collection_mode: hide
 
-    Patrick Labels:
+  Patrick Labels:
     trakt_list:
       - https://trakt.tv/users/planetjimbo/lists/st-patrick-s-day-collection
       - https://trakt.tv/users/madmapper/lists/st-patrick-s-day
       - https://trakt.tv/users/blazin887/lists/st-patricks-day
     item_label: season_patrick
     collection_mode: hide
+
 
 #########################
 # SEASONAL COLLECTIONS #
@@ -78,7 +79,6 @@ collections:
 templates:
   seasonal:
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/seasonal/<<season>>.png
-    schedule: <<schedule>>
     visible_library: true
     visible_home: true
     visible_shared: true
@@ -91,7 +91,7 @@ collections:
     template:
       name: seasonal
       season: Christmas
-      schedule: range(11/01-12/31)
+    schedule: range(11/01-12/31)
     smart_filter:
       all:
         label: season_christmas
@@ -103,7 +103,7 @@ collections:
     template:
       name: seasonal
       season: Halloween
-      schedule: range(09/15-10/31)
+    schedule: range(09/15-10/31)
     smart_filter:
       all:
         label: season_halloween
@@ -115,44 +115,46 @@ collections:
     template:
       name: seasonal
       season: Valentine
-      schedule: range(02/01-02/14)
+    schedule: range(02/01-02/14)
     smart_filter:
       all:
         label: season_valentine
     summary: >
-      Celebrate love in all its forms with this collection of romantic films and shorts. From timeless classics to modern tales of connection, passion, and heartfelt moments, these stories explore the joys, challenges, and magic of love.
+      Celebrate love in all its forms with this collection of romantic films and shorts,
+      from timeless classics to modern tales of connection and passion.
 
   Roots & Rise - Black History Stories:
     template:
       name: seasonal
       season: Black-History
-      schedule: range(02/01-02/29)
+    schedule: range(02/01-02/29)
     smart_filter:
       all:
         label: season_black-history
     summary: >
-      Celebrates the achievements, stories, and cultural contributions of Black individuals throughout history. Featuring inspiring historical films, powerful tales of resilience and creativity, as well as contemporary movies with Black leads, it honors the past, highlights the present, and inspires the future.
+      Celebrates the achievements, stories, and cultural contributions of Black individuals
+      throughout history, honoring the past while highlighting the present.
 
   Bunnies & Blessings:
     template:
       name: seasonal
       season: Easter
-      schedule: range(03/20-04/30)
+    schedule: range(03/20-04/30)
     smart_filter:
       all:
         label: season_easter
     summary: >
-      Celebrate the joy and renewal of Easter with this diverse collection of films and shorts. Featuring fun, family-friendly rabbit adventures alongside inspiring stories of faith, these titles highlight themes of hope, friendship, and new beginnings, capturing both the playful and spiritual spirit of the season.
+      Celebrate the joy and renewal of Easter with a mix of fun, family-friendly rabbit
+      adventures and inspiring stories of faith, hope, and new beginnings.
 
   Shamrock Stories:
     template:
       name: seasonal
       season: Patrick
-      schedule: range(03/01-03/17)
+    schedule: range(03/01-03/17)
     smart_filter:
       all:
         label: season_patrick
     summary: >
-      Celebrate St. Patrick’s Day with a collection of films and shorts that capture the magic, mischief, and charm of the holiday. Featuring whimsical adventures, folklore-inspired tales, and even a few spooky or mischievous stories, this collection blends fun, fantasy, and festive spirit for viewers of all tastes.
-
-  
+      Celebrate St. Patrick’s Day with films and shorts inspired by folklore, whimsy,
+      mischief, and Irish-themed storytelling — from festive fun to darker tales.

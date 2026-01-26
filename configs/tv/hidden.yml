@@ -36,6 +36,12 @@ collections:
     template: {name: hidden, show: 65334}
   PAW Patrol:
     template: {name: hidden, show: 57532}
+  Pixar Short Films:
+    template:
+      name: hidden
+      show:
+        - 114501
+        - 114505
   Pokémon:
     template: {name: hidden, show: 60572}
   The Simpsons:

@@ -56,8 +56,8 @@ collections:
   Pixar Animation Studios:
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/PixarAnimationStudios.png
     template:
-      name: studio
-      company: 3
+      name: studio-trakt
+      trakt: https://trakt.tv/users/twentywashere/lists/pixar
       radarr: true
     summary: Pixar Animation Studios is a pioneer in computer-animated filmmaking, known for emotionally resonant storytelling and technical innovation.
 
@@ -65,7 +65,7 @@ collections:
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/PixarShortFilms.png
     template:
       name: studio-trakt
-      trakt: https://trakt.tv/users/avaianade/lists/pixar-shorts
+      trakt: https://trakt.tv/users/tbotcotw/lists/pixar-shorts
       radarr: true
     summary: Pixar shorts serve as creative and technical experiments, often introducing new animation techniques and storytelling styles.
 

@@ -65,7 +65,7 @@ collections:
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/PixarShortFilms.png
     template:
       name: studio-trakt
-      trakt: https://trakt.tv/users/tbotcotw/lists/pixar-shorts
+      trakt: https://trakt.tv/users/megamene/lists/pixar-short-films
       radarr: true
     summary: Pixar shorts serve as creative and technical experiments, often introducing new animation techniques and storytelling styles.
 

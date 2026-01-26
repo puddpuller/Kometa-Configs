@@ -37,6 +37,7 @@ collections:
   PAW Patrol:
     template: {name: hidden, show: 57532}
   Pixar Short Films:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/PixarAnimationStudios.png
     template:
       name: hidden
       show:

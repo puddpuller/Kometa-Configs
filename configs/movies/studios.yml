@@ -69,21 +69,21 @@ collections:
       radarr: true
     summary: Pixar shorts serve as creative and technical experiments, often introducing new animation techniques and storytelling styles.
 
-#  DreamWorks Animation Studios:
- #   url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DreamWorksAnimationStudios.png
-  #  template:
-   #   name: studio-trakt
-    #  trakt: https://trakt.tv/users/mythicalsensai/lists/dreamworks-animation
-     # radarr: true
-   # summary: DreamWorks Animation’s feature films reflect the studio’s emergence as a major force in modern animation. Known for bold visuals, humor, and character-driven storytelling, these films helped reshape animated cinema from the late 1990s onward, blending technological innovation with imaginative, family-friendly adventures.
+  DreamWorks Animation Studios:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DreamWorksAnimationStudios.png
+    template:
+      name: studio-trakt
+      trakt: https://trakt.tv/users/mythicalsensai/lists/dreamworks-animation
+      radarr: true
+    summary: DreamWorks Animation’s feature films reflect the studio’s emergence as a major force in modern animation. Known for bold visuals, humor, and character-driven storytelling, these films helped reshape animated cinema from the late 1990s onward, blending technological innovation with imaginative, family-friendly adventures.
     
-#  DreamWorks Short Films:
- #   url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DreamWorksShortFilms.png
-  #  template:
-   #   name: studio-trakt
-    #  trakt: https://trakt.tv/users/megamene/lists/dreamworks-animation-short-films
-     # radarr: true
-  #  summary: DreamWorks animated short films showcase creative experimentation and concise storytelling. Often produced alongside feature releases, these shorts highlight evolving animation techniques, playful side stories, and the studio’s ability to tell imaginative, engaging stories in a compact format.
+  DreamWorks Short Films:
+    url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/DreamWorksShortFilms.png
+    template:
+      name: studio-trakt
+      trakt: https://trakt.tv/users/megamene/lists/dreamworks-animation-short-films
+      radarr: true
+    summary: DreamWorks animated short films showcase creative experimentation and concise storytelling. Often produced alongside feature releases, these shorts highlight evolving animation techniques, playful side stories, and the studio’s ability to tell imaginative, engaging stories in a compact format.
     
   Studio Ghibli:
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/studios/StudioGhibli.png

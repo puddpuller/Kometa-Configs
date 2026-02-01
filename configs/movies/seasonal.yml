@@ -11,6 +11,7 @@ templates:
     visible_home: true
     visible_shared: true
     sort_title: ++++++<<collection_name>>
+    collection_order: random
 
 ######################################################
 #                   COLLECTIONS                      #

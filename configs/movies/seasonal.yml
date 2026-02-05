@@ -111,3 +111,74 @@ collections:
     summary: >
       Celebrate St. Patrick’s Day with films and stories filled with charm, folklore,
       mischief, and a touch of festive magic.
+
+  Legends of the Lunar New Year:
+    template:
+      name: seasonal
+      season: lunar
+      schedule: range(01/21-02/20)
+    trakt_list:
+      - https://trakt.tv/users/sandstorms/lists/horse-movies-shows
+    summary: >
+     Celebrate the Lunar New Year with a vibrant mix of films and shorts inspired by tradition, folklore, and cultural storytelling. Alongside themes of renewal, luck, and togetherness, this collection embraces the spirit and symbolism of the year’s zodiac sign, weaving its traits and energy into stories that honor heritage while welcoming new beginnings.
+
+  Voices of Asia and the Pacific:
+    template:
+      name: seasonal
+      season: asia-pacific
+      schedule: range(05/01-05/31)
+    trakt_list:
+      - https://trakt.tv/users/k0meta/lists/asian-american-pacific-islander-heritage-month
+      - https://trakt.tv/users/explicitlyemily/lists/aapi-festival
+      - https://trakt.tv/users/asnguy01/lists/chinese-movies
+      - https://trakt.tv/users/mgperdices/lists/korean-movies
+      - https://trakt.tv/users/xanatos-david/lists/japanese-movies
+      - https://trakt.tv/users/komobu/lists/korean-movies
+    summary: >
+     Celebrate the histories, cultures, and creative voices of Asian and Pacific Islander communities through a diverse selection of films and shorts. Spanning generations and genres, these stories highlight tradition, resilience, and contemporary life, honoring the lasting impact and rich contributions of Asian and Pacific Islander heritage.
+     
+  Her Story on Screen:
+    template:
+      name: seasonal
+      season: women
+      schedule: range(03/01-03/31)
+    trakt_list:
+      - https://trakt.tv/users/pterisaur/lists/women-s-history-month
+      - https://trakt.tv/users/ymendel/lists/women-s-history-month
+      - https://trakt.tv/users/trovolar/lists/women-s-history-month
+    summary: >
+     Celebrate the achievements, resilience, and influence of women through a powerful selection of films and shorts. Spanning history, genres, and generations, these stories highlight leadership, creativity, and courage, honoring the women who have shaped the world and continue to inspire change.
+     
+  Culturas en Movimiento:
+    template:
+      name: seasonal
+      season: hispanic
+      schedule: range(09/15-10/15)
+    trakt_list:
+      - https://trakt.tv/users/drachenplatinum/lists/national-hispanic-heritage-movies
+      - https://trakt.tv/users/k0meta/lists/hispanic-heritage-month
+      - https://trakt.tv/users/drachenplatinum/lists/national-hispanic-heritage-movies
+    summary: >
+     Celebrate the richness, diversity, and creativity of Hispanic and Latino cultures through a vibrant selection of films and shorts. Highlighting tradition, family, music, and contemporary stories, these films honor the contributions, heritage, and voices that continue to shape communities and inspire future generations.
+
+   Honoring Indigenous Voices:
+    template:
+      name: seasonal
+      season: native
+      schedule: range(11/01-11/30)
+    trakt_list:
+      - https://trakt.tv/users/trovolar/lists/native-american-heritage-month
+    summary: >
+     Celebrate the history, culture, and resilience of Native American communities through a diverse selection of films and shorts. Highlighting tradition, storytelling, and contemporary life, these stories honor the enduring contributions, heritage, and voices of Indigenous peoples across generations.
+     
+  Pride in Motion:
+    template:
+      name: seasonal
+      season: pride
+      schedule: range(06/01-06/30)
+    trakt_list:
+      - https://trakt.tv/users/luna_t3ch/lists/pride-month-waving_white_flag-rainbow
+      - https://trakt.tv/users/smatthew/lists/lgbt
+    summary: >
+     Celebrate the diversity, resilience, and creativity of LGBTQ+ communities through a vibrant selection of films and shorts. Highlighting stories of identity, love, activism, and personal triumph, these films honor the voices, experiences, and contributions that have shaped Pride and continue to inspire visibility and acceptance.
+     

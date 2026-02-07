@@ -14,10 +14,120 @@ templates:
     collection_order: random
 
 ######################################################
-#                   COLLECTIONS                      #
+#               HOLIDAY COLLECTIONS                  #
 ######################################################
 
 collections:
+
+  "Cheers to a New Year":
+    template:
+      name: seasonal
+      season: new-year
+      schedule: range(12/26-01/07)
+    trakt_list:
+      - https://trakt.tv/users/xpinkfrogx/lists/confetti_ball-new-year-s-movies-confetti_ball
+      - https://trakt.tv/users/laurenceibrahim/lists/ringing-in-the-new-year
+      - https://trakt.tv/users/blazin887/lists/new-year
+      - https://trakt.tv/users/threespoons/lists/new-year-s-movies
+    summary: >
+      Celebrate the start of a new year with films and shorts that capture 
+      reflection, celebration, and fresh beginnings. From festive countdowns 
+      and joyful gatherings to thoughtful stories about change and hope, these 
+      titles embrace the excitement of turning the page and welcoming what 
+      comes next.
+
+  "Legends of the Lunar New Year":
+    template:
+      name: seasonal
+      season: lunar
+      schedule: range(01/21-02/20)
+    trakt_list:
+      - https://trakt.tv/users/asnguy01/lists/chinese-movies
+      - https://trakt.tv/users/sandstorms/lists/horse-movies-shows
+    summary: >
+      Celebrate the Lunar New Year with a vibrant mix of films and shorts inspired by tradition,
+      folklore, and cultural storytelling. Alongside themes of renewal, luck, and togetherness,
+      this collection embraces the spirit and symbolism of the year’s zodiac sign, weaving its
+      traits and energy into stories that honor heritage while welcoming new beginnings.
+
+  "Cupid’s Favorites":
+    template:
+      name: seasonal
+      season: valentine
+      schedule: range(02/01-02/14)
+    trakt_list:
+      - https://trakt.tv/users/martincz29/lists/valentine
+      - https://trakt.tv/users/planetjimbo/lists/valentine-s-day-collection
+      - https://trakt.tv/users/triadcool/lists/valentine
+      - https://trakt.tv/users/oya-kesh/lists/seasonal-valentine
+      - https://trakt.tv/users/dweagle79/lists/valentine-s-day
+    summary: >
+      Celebrate love in all its forms with romantic films and heartfelt stories
+      about connection, passion, and meaningful relationships.
+
+  "Shamrock Stories":
+    template:
+      name: seasonal
+      season: patrick
+      schedule: range(03/01-03/17)
+    trakt_list:
+      - https://trakt.tv/users/planetjimbo/lists/st-patrick-s-day-collection
+      - https://trakt.tv/users/madmapper/lists/st-patrick-s-day
+      - https://trakt.tv/users/blazin887/lists/st-patricks-day
+    summary: >
+      Celebrate St. Patrick’s Day with films and stories filled with charm, folklore,
+      mischief, and a touch of festive magic.
+
+  "Bunnies & Blessings":
+    template:
+      name: seasonal
+      season: easter
+      schedule: range(03/20-04/30)
+    trakt_list:
+      - https://trakt.tv/users/axee4/lists/easter
+      - https://trakt.tv/users/neyoke/lists/easter
+      - https://trakt.tv/users/blakemp/lists/easter
+      - https://trakt.tv/users/trovolar/lists/easter
+      - https://trakt.tv/users/blazin887/lists/easter
+      - https://trakt.tv/users/dvitale71/lists/easter
+    summary: >
+      Celebrate the joy and renewal of Easter with a blend of fun, family-friendly rabbit
+      adventures and inspiring stories of faith, hope, and new beginnings.
+
+  "Spooktober":
+    template:
+      name: seasonal
+      season: halloween
+      schedule: range(09/15-10/31)
+    trakt_list:
+      - https://trakt.tv/users/oldmankestis/lists/horror
+      - https://trakt.tv/users/movistapp/lists/horror
+      - https://trakt.tv/users/g0g0/lists/horror
+      - https://trakt.tv/users/pterisaur/lists/halloween
+      - https://trakt.tv/users/k0meta/lists/spooktober-copy
+    plex_search:
+      any:
+        genre: Horror
+    summary: >
+      Films celebrating Halloween, spooky folklore, and horror traditions —
+      ranging from lighthearted scares to atmospheric chills.
+
+  "Thanks & Togetherness":
+    template:
+      name: seasonal
+      season: thanksgiving
+      schedule: range(09/01-09/30)
+    trakt_list:
+      - https://trakt.tv/users/iiviioran/lists/thanksgiving
+      - https://trakt.tv/users/cshinn66/lists/thanksgiving
+      - https://trakt.tv/users/sandpiper7/lists/thanksgiving
+      - https://trakt.tv/users/axee4/lists/thanksgiving
+      - https://trakt.tv/users/cbasszerofive/lists/rotten-tomatoes-best-thanksgiving-movies-your-holiday-movie-feast-2024
+    summary: >
+      Celebrate the warmth, togetherness, and gratitude of Thanksgiving through a variety
+      of films and shorts. From heartwarming family stories and festive gatherings 
+      to humorous and heartfelt adventures, these titles capture the spirit of 
+      giving thanks, traditions, and the joy of sharing moments with loved ones.
 
   "Santa’s Nice List":
     template:
@@ -36,38 +146,9 @@ collections:
       A festive collection celebrating the spirit, traditions, and magic of the holiday season —
       from timeless classics to modern favorites.
 
-  Spooktober:
-    template:
-      name: seasonal
-      season: halloween
-      schedule: range(09/15-10/31)
-    trakt_list:
-      - https://trakt.tv/users/oldmankestis/lists/horror
-      - https://trakt.tv/users/movistapp/lists/horror
-      - https://trakt.tv/users/g0g0/lists/horror
-      - https://trakt.tv/users/pterisaur/lists/halloween
-      - https://trakt.tv/users/k0meta/lists/spooktober-copy
-    plex_search:
-      any:
-        genre: Horror
-    summary: >
-      Films celebrating Halloween, spooky folklore, and horror traditions —
-      ranging from lighthearted scares to atmospheric chills.
-
-  "Cupid’s Favorites":
-    template:
-      name: seasonal
-      season: valentine
-      schedule: range(02/01-02/14)
-    trakt_list:
-      - https://trakt.tv/users/martincz29/lists/valentine
-      - https://trakt.tv/users/planetjimbo/lists/valentine-s-day-collection
-      - https://trakt.tv/users/triadcool/lists/valentine
-      - https://trakt.tv/users/oya-kesh/lists/seasonal-valentine
-      - https://trakt.tv/users/dweagle79/lists/valentine-s-day
-    summary: >
-      Celebrate love in all its forms with romantic films and heartfelt stories
-      about connection, passion, and meaningful relationships.
+######################################################
+#               MONTHLY COLLECTIONS                  #
+######################################################
 
   "Roots & Rise – Black History Stories":
     template:
@@ -83,48 +164,20 @@ collections:
       Celebrates the achievements, stories, and cultural contributions of Black individuals
       throughout history, honoring the past, present, and future.
 
-  "Bunnies & Blessings":
+  "Her Story on Screen":
     template:
       name: seasonal
-      season: easter
-      schedule: range(03/20-04/30)
+      season: women
+      schedule: range(03/01-03/31)
     trakt_list:
-      - https://trakt.tv/users/axee4/lists/easter
-      - https://trakt.tv/users/neyoke/lists/easter
-      - https://trakt.tv/users/blakemp/lists/easter
-      - https://trakt.tv/users/trovolar/lists/easter
-      - https://trakt.tv/users/blazin887/lists/easter
-      - https://trakt.tv/users/dvitale71/lists/easter
+      - https://trakt.tv/users/pterisaur/lists/women-s-history-month
+      - https://trakt.tv/users/ymendel/lists/women-s-history-month
+      - https://trakt.tv/users/trovolar/lists/women-s-history-month
     summary: >
-      Celebrate the joy and renewal of Easter with a blend of fun, family-friendly rabbit
-      adventures and inspiring stories of faith, hope, and new beginnings.
-
-  "Shamrock Stories":
-    template:
-      name: seasonal
-      season: patrick
-      schedule: range(03/01-03/17)
-    trakt_list:
-      - https://trakt.tv/users/planetjimbo/lists/st-patrick-s-day-collection
-      - https://trakt.tv/users/madmapper/lists/st-patrick-s-day
-      - https://trakt.tv/users/blazin887/lists/st-patricks-day
-    summary: >
-      Celebrate St. Patrick’s Day with films and stories filled with charm, folklore,
-      mischief, and a touch of festive magic.
-
-  "Legends of the Lunar New Year":
-    template:
-      name: seasonal
-      season: lunar
-      schedule: range(01/21-02/20)
-    trakt_list:
-      - https://trakt.tv/users/asnguy01/lists/chinese-movies
-      - https://trakt.tv/users/sandstorms/lists/horse-movies-shows
-    summary: >
-      Celebrate the Lunar New Year with a vibrant mix of films and shorts inspired by tradition,
-      folklore, and cultural storytelling. Alongside themes of renewal, luck, and togetherness,
-      this collection embraces the spirit and symbolism of the year’s zodiac sign, weaving its
-      traits and energy into stories that honor heritage while welcoming new beginnings.
+      Celebrate the achievements, resilience, and influence of women through a powerful
+      selection of films and shorts. Spanning history, genres, and generations, these stories
+      highlight leadership, creativity, and courage, honoring the women who have shaped the
+      world and continue to inspire change.
 
   "Voices of Asia and the Pacific":
     template:
@@ -144,20 +197,19 @@ collections:
       genres, these stories highlight tradition, resilience, and contemporary life, honoring
       the lasting impact and rich contributions of Asian and Pacific Islander heritage.
 
-  "Her Story on Screen":
+  "Pride in Motion":
     template:
       name: seasonal
-      season: women
-      schedule: range(03/01-03/31)
+      season: pride
+      schedule: range(06/01-06/30)
     trakt_list:
-      - https://trakt.tv/users/pterisaur/lists/women-s-history-month
-      - https://trakt.tv/users/ymendel/lists/women-s-history-month
-      - https://trakt.tv/users/trovolar/lists/women-s-history-month
+      - https://trakt.tv/users/luna_t3ch/lists/pride-month-waving_white_flag-rainbow
+      - https://trakt.tv/users/smatthew/lists/lgbt
     summary: >
-      Celebrate the achievements, resilience, and influence of women through a powerful
-      selection of films and shorts. Spanning history, genres, and generations, these stories
-      highlight leadership, creativity, and courage, honoring the women who have shaped the
-      world and continue to inspire change.
+      Celebrate the diversity, resilience, and creativity of LGBTQ+ communities through a
+      vibrant selection of films and shorts. Highlighting stories of identity, love, activism,
+      and personal triumph, these films honor the voices, experiences, and contributions that
+      have shaped Pride and continue to inspire visibility and acceptance.
 
   "Culturas en Movimiento":
     template:
@@ -186,16 +238,3 @@ collections:
       contemporary life, these stories honor the enduring contributions, heritage, and voices
       of Indigenous peoples across generations.
 
-  "Pride in Motion":
-    template:
-      name: seasonal
-      season: pride
-      schedule: range(06/01-06/30)
-    trakt_list:
-      - https://trakt.tv/users/luna_t3ch/lists/pride-month-waving_white_flag-rainbow
-      - https://trakt.tv/users/smatthew/lists/lgbt
-    summary: >
-      Celebrate the diversity, resilience, and creativity of LGBTQ+ communities through a
-      vibrant selection of films and shorts. Highlighting stories of identity, love, activism,
-      and personal triumph, these films honor the voices, experiences, and contributions that
-      have shaped Pride and continue to inspire visibility and acceptance.

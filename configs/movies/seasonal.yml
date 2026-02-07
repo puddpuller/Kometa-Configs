@@ -13,11 +13,11 @@ templates:
     sort_title: ++++++<<collection_name>>
     collection_order: random
 
-######################################################
-#               HOLIDAY COLLECTIONS                  #
-######################################################
-
 collections:
+
+######################################################
+#                     HOLIDAY                        #
+######################################################
 
   "Cheers to a New Year":
     template:
@@ -147,7 +147,7 @@ collections:
       from timeless classics to modern favorites.
 
 ######################################################
-#               MONTHLY COLLECTIONS                  #
+#                     MONTHLY                        #
 ######################################################
 
   "Roots & Rise – Black History Stories":

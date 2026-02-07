@@ -118,6 +118,7 @@ collections:
       season: lunar
       schedule: range(01/21-02/20)
     trakt_list:
+      - https://trakt.tv/users/asnguy01/lists/chinese-movies
       - https://trakt.tv/users/sandstorms/lists/horse-movies-shows
     summary: >
       Celebrate the Lunar New Year with a vibrant mix of films and shorts inspired by tradition,

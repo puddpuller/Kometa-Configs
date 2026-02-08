@@ -94,6 +94,24 @@ collections:
       Celebrate the joy and renewal of Easter with a blend of fun, family-friendly rabbit
       adventures and inspiring stories of faith, hope, and new beginnings.
 
+  "Celebrating Independence":
+    template:
+      name: seasonal
+      season: independence
+      schedule: range(06/20-07/04)
+    trakt_list:
+      - https://trakt.tv/users/oldmankestis/lists/independence-day-films
+      - https://trakt.tv/users/asentum/lists/independence-day-movies
+      - https://trakt.tv/users/aaronemo21/lists/horizon-an-american-saga-collection-copy
+      - https://trakt.tv/users/d3r3k23/lists/american-history-in-film
+      - https://trakt.tv/users/dcassidy/lists/the-american-indian-wars
+      - https://trakt.tv/users/dudeimtired/lists/american-pie-spin-off-collection
+    summary: >
+      Celebrate the spirit of Independence Day with a selection of films and shorts that
+      capture freedom, courage, and national pride. From historical stories and patriotic
+      adventures to fun, family-friendly tales, these titles highlight the values,
+      traditions, and celebrations that define the holiday and the American experience.
+
   "Spooktober":
     template:
       name: seasonal

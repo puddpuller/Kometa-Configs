@@ -27,7 +27,11 @@ collections:
   Oscars:
     template: {name: awards}
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/awards/Oscars.png
-    trakt_list: https://trakt.tv/users/pandali/lists/oscar-nomination-1975-2023
+    trakt_list:
+      - https://trakt.tv/users/pandali/lists/oscar-nomination-1975-2023
+      - https://trakt.tv/users/dlcrain58/lists/2024-oscar-nominated-movies
+      - https://trakt.tv/users/dlcrain58/lists/2025-oscar-nominated-movies
+      - https://trakt.tv/users/dlcrain58/lists/2026-oscar-nominated-movies
     summary: Every movie to receive an Oscar nomination from 1931-Present.
 
 #  "Cannes Palme d'Or Winners":

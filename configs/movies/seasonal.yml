@@ -7,10 +7,11 @@ templates:
     label: season_<<season>>
     url_poster: https://raw.githubusercontent.com/puddpuller/Kometa-Configs/main/configs/assets/seasonal/<<season>>.png
     schedule: <<schedule>>
+    delete_not_scheduled: true
     visible_library: true
     visible_home: true
     visible_shared: true
-    sort_title: ++++++<<collection_name>>
+    sort_title: !!!!!!!<<collection_name>>
     collection_order: random
 
 collections:
